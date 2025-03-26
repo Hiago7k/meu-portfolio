@@ -1,0 +1,457 @@
+@import url('https://fonts.cdnfonts.com/css/tt-hoves-pro-trial');
+@import url('clash-grotesk.css');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    font-family: 'ClashGrotesk-Light', sans-serif;
+}
+
+main {
+    height: auto; /* Ajusta a altura para se adaptar ao conteúdo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Garante que os itens fiquem em coluna */
+    padding: 20px; /* Adiciona um pouco de espaçamento interno */
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    max-width: 1440px;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+ul li:hover i {
+    color: #2EE6D6;
+    transform: scale(2.2);
+    transition: color 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 22px;
+}
+
+i {
+    color: #fff;
+}
+
+.desenvovledor-titulo {
+    font-size: 12em;
+}
+
+section {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px;
+    gap: 50px;
+}
+
+.sobre-me {
+    max-width: 700px;
+}
+
+
+
+.imagem-perfil {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
+}
+
+.texto {
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    gap: 15px;
+}
+
+.redes a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: fit-content;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.15);
+}
+
+.redes a:hover {
+    color: #2EE6D6;
+    transition: color 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.redes a i:hover {
+    color: #2EE6D6;
+    transform: scale(2.2);
+    transition: color 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+
+.tecnologias-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tecnologias-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    gap: 60px;
+}
+
+.tecnologias-container i {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.6s ease-in-out, color 0.6s ease-in-out, transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+
+}
+
+.tecnologias-container i:hover {
+    color: #2EE6D6;
+    border-color: #2EE6D6;
+    box-shadow: 5px 5px 15px #2EE6D6;
+    transform: scale(1.05);
+}
+
+
+
+.tecnologias-info i {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    color: #2EE6D6;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rodape {
+    background-color: #000;
+    height: 250px;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #f6f6f6;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    gap: 23px;
+}
+
+footer nav a:hover {
+    color: #00CFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.social a {
+    color: #f6f6f6;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.container-projetos{
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    color: #2EE6D6;
+    border-color: #2EE6D6;
+    box-shadow: 5px 5px 15px #2EE6D6;
+    transition: border-color 0.6s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.container-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+.project img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.project .title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    
+}
+
+.projetos h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 23px;
+    border-radius: 10px;
+    color: ;
+  
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .social-icons {
+        font-size: 5em; 
+    }
+
+    .sobre {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .imagem-perfil {
+        width: 300px;
+        height: 300px;
+    }
+
+    .tecnologias-container {
+        flex-direction: column;
+        font-size: 100px; 
+    }
+
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-projetos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rodape nav {
+        font-size: 14px;
+    }
+}
+
+
+section {
+    height: auto; 
+    padding: 20px; 
+}
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+
+    
+    h1.projetos-titulo {
+        font-size: 3rem; 
+        margin-bottom: 20px; 
+    }
+
+  
+    .container-projetos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .tecnologias-info h1 {
+        font-size: 2rem; 
+    }
+
+    .tecnologias-container {
+        font-size: 100px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .social-icons {
+        font-size: 4em;
+    }
+
+    h2.ola {
+        font-size: 1.5rem;
+    }
+
+    .sobre-me {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .redes a {
+        font-size: 1.2rem;
+    }
+
+    .tecnologias-container {
+        font-size: 80px; 
+        gap: 40px;
+    }
+
+    .rodape {
+        font-size: 0.9rem;
+    }
+
+    footer nav {
+        font-size: 0.8rem;
+    }
+
+    
+    .projetos-titulo h1 {
+        font-size: 2.5rem; 
+    }
+}
+
+
+.main .react-titulo {
+    font-size: 6rem; 
+}
+
+.main .desenvovledor-titulo {
+    font-size: 4rem; 
+}
+
+
+@media (max-width: 768px) {
+    .main .react-titulo {
+        font-size: 4rem; 
+    }
+
+    .main .desenvovledor-titulo {
+        font-size: 2.5rem; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1.react-titulo {
+        font-size: 3rem; 
+        margin-bottom: 10px; 
+    }
+
+    
+    .desenvovledor-titulo {
+        font-size: 5rem; 
+        margin-top: 10px;
+    }
+
+    
+    .container {
+        width: 100%;
+        max-width: 100%; 
+    }
+
+    .social-icons {
+        font-size: 4rem; 
+        margin-bottom: 20px; 
+    }
+
+    
+    h2.ola {
+        font-size: 1.5rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+   
+    h1.react-titulo {
+        font-size: 2rem; 
+    }
+
+    
+    .desenvovledor-titulo {
+        font-size: 4rem; 
+    }
+
+    
+    .social-icons {
+        font-size: 3rem; 
+    }
+}
